@@ -1,0 +1,158 @@
+[
+    {
+        "id": 1,
+        "status": true,
+        "title": "Manzana Roja",
+        "description": "Fruta Roja",
+        "price": "$10",
+        "thumbnail": [
+            "https://img.freepik.com/vector-gratis/ilustracion-icono-dibujos-animados-fruta-manzana-concepto-icono-fruta-alimentos-aislado-estilo-dibujos-animados-plana_138676-2922.jpg?w=100"
+        ],
+        "code": "0001",
+        "stock": "10",
+        "category": "Fruta"
+    },
+    {
+        "id": 2,
+        "status": true,
+        "title": "Manzana Verde",
+        "description": "Fruta Verde",
+        "price": "$11",
+        "thumbnail": [
+            "https://img.freepik.com/vector-gratis/ilustracion-icono-dibujos-animados-fruta-manzana-concepto-icono-fruta-alimentos-aislado-estilo-dibujos-animados-plana_138676-2922.jpg?w=100"
+        ],
+        "code": "0002",
+        "stock": "10",
+        "category": "Fruta"
+    },
+    {
+        "id": 3,
+        "status": true,
+        "title": "Manzana Golden",
+        "description": "Fruta Amarilla",
+        "price": "$12",
+        "thumbnail": [
+            "https://img.freepik.com/vector-gratis/ilustracion-icono-dibujos-animados-fruta-manzana-concepto-icono-fruta-alimentos-aislado-estilo-dibujos-animados-plana_138676-2922.jpg?w=100"
+        ],
+        "code": "0003",
+        "stock": "10",
+        "category": "Fruta"
+    },
+    {
+        "id": 4,
+        "status": true,
+        "title": "Pera",
+        "description": "Fruta Verde Palido",
+        "price": "$15",
+        "thumbnail": [
+            "Sin imagen"
+        ],
+        "code": "0005",
+        "stock": "25",
+        "category": "Fruta"
+    },
+    {
+        "id": 5,
+        "status": true,
+        "title": "Sandia",
+        "description": "Fruta Gorda",
+        "price": "$40",
+        "thumbnail": [
+            "Sin imagen"
+        ],
+        "code": "0005",
+        "stock": "5",
+        "category": "Fruta"
+    },
+    {
+        "id": 6,
+        "status": true,
+        "title": "Aguacate",
+        "description": "Fruta Rica",
+        "price": "$19",
+        "thumbnail": [
+            "Sin imagen"
+        ],
+        "code": "0006",
+        "stock": "25",
+        "category": "Fruta"
+    },
+    {
+        "id": 7,
+        "status": true,
+        "title": "Naranja",
+        "description": "Fruta Naranja",
+        "price": "$6",
+        "thumbnail": [
+            "Sin imagen"
+        ],
+        "code": "0007",
+        "stock": "25",
+        "category": "Fruta"
+    },
+    {
+        "id": 8,
+        "status": true,
+        "title": "Zarzamora",
+        "description": "Mora purpura",
+        "price": "$2",
+        "thumbnail": [
+            "Sin imagen"
+        ],
+        "code": "0008",
+        "stock": "250",
+        "category": "Fruta"
+    },
+    {
+        "id": 9,
+        "status": true,
+        "title": "Melón",
+        "description": "Fruta Redonda",
+        "price": "$30",
+        "thumbnail": [
+            "Sin imagen"
+        ],
+        "code": "0009",
+        "stock": "25",
+        "category": "Fruta"
+    },
+    {
+        "id": 10,
+        "status": true,
+        "title": "Guanabana",
+        "description": "Gruta Rara",
+        "price": "$27",
+        "thumbnail": [
+            "Sin imagen"
+        ],
+        "code": "0010",
+        "stock": "25",
+        "category": "Fruta"
+    },
+    {
+        "id": 12,
+        "status": true,
+        "title": "Iphone X",
+        "description": "Pantalla de 6.5 pulgadas",
+        "price": 145000,
+        "thumbnail": [
+            "https://user-images.githubusercontent.com/63796774/175106135-03263dff-9b33-4b1c-9835-4e23c2e47ccf.jpeg"
+        ],
+        "code": 9742,
+        "stock": 23,
+        "category": "phone"
+    },
+    {
+        "id": 13,
+        "status": true,
+        "title": "Iphone XI",
+        "description": "Pantalla de 6.6 pulgadas",
+        "price": 190000,
+        "thumbnail": [
+            "https://user-images.githubusercontent.com/63796774/175106135-03263dff-9b33-4b1c-9835-4e23c2e47ccf.jpeg"
+        ],
+        "code": 8743,
+        "stock": 3,
+        "category": "phone"
+    }
+]

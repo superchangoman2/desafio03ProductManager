@@ -1,30 +1,21 @@
 import express from 'express';
-import { ProductManager } from './productManager.js';
-
-const manager = new ProductManager();
+import productRoutes from './routes/productRoutes.js';
+import cartRoutes from './routes/cartRoutes.js';
 
 const app = express();
-const port = 8080;
+const PORT = 8080 || process.env.PORT;
 
-app.get('/products', async(req, res) => {
-    const limit = req.query.limit;
-    await manager.readData();
-    const products = manager.getProducts();
-    if (limit) {
-        res.json(products.slice(0,limit));
-    } else {
-        res.json(products);
-    }
-});
+app.use(express.json());
+app.use(express.urlencoded({extended: true}));
+app.use(express.static("public"));
 
-app.get('/products/:id', async (req, res) => {
-    const id = req.params.id;
-    const product = await manager.getProductById(parseInt(id));
-    if(product) {
-        res.json(product);
-    }
-});
+app.use("/api/products", productRoutes);
+app.use("/api/carts", cartRoutes);
 
-app.listen(port, () => {
-    console.log(`Server online in port ${port}`);
-});
+try{
+    app.listen(PORT, () =>
+    console.log(`Server is online on PORT ${PORT} at ${new Date().toLocaleString()}`));
+
+} catch (error) {
+    console.log(`Error starting server ${error}`);
+}
